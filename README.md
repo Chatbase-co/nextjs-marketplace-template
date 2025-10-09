@@ -9,6 +9,9 @@ pnpm install
 pnpm dev
 ```
 
+## Deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatbase-co%2Fnextjs-marketplace-template&env=NEXT_PUBLIC_CHATBOT_ID&envDescription=chatbot%20id%20from%20chatbase&integration-ids=icfg_jS0nsILSbn7FTwQFbTJy5CSY&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22chatbase%22%2C%22productSlug%22%3A%22chatbot%22%2C%22protocol%22%3A%22ai%22%7D%5D)
+
 ## Chatbase AI Integration
 
 This template comes pre-configured with Chatbase integration. Here's how to set it up:
