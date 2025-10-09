@@ -1,6 +1,6 @@
 # Nexus AI Project Management SaaS
 
-A Next.js starter template for AI-powered SaaS applications with integrated Chatbase chatbot support.
+A Next.js starter template for AI-powered SaaS applications with integrated Chatbase AI agents
 
 ## Quick Start
 
