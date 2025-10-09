@@ -39,11 +39,3 @@ NEXT_PUBLIC_CHATBOT_ID=your_chatbot_id_here
 
 - [Chatbase Documentation](https://www.chatbase.co/docs/user-guides/quick-start/introduction) - Complete integration guide
 - [API Reference](https://www.chatbase.co/docs/developer-guides/api-integration) - API-ready ai agent integration
-
-## Deployment
-
-Deploy to Vercel, Netlify, or any platform that supports Next.js. Remember to add your environment variables in your deployment platform's dashboard.
-
-## Support
-
-Check the [Chatbase docs](https://www.chatbase.co/docs/user-guides/quick-start/introduction) for AI integration help or open an issue on GitHub.
