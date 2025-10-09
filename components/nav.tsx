@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export function MinimalNav() {
+export function Nav() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-stone-900/20 to-transparent backdrop-blur-xs">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
