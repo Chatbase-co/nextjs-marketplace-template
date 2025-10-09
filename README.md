@@ -5,8 +5,6 @@ A Next.js starter template for AI-powered SaaS applications with integrated Chat
 ## Quick Start
 
 ```bash
-git clone <your-repo-url>
-cd nextjs-template
 pnpm install
 pnpm dev
 ```
@@ -24,10 +22,11 @@ Visit [Chatbase.co](https://www.chatbase.co) to create your account and chatbot.
 3. Copy your chatbot ID
 
 ### 3. Configure Environment Variables
-Create `.env.local`:
+You need 1 environment variable: `NEXT_PUBLIC_CHATBOT_ID`
 
+Create `.env.local`:
 ```env
-NEXT_PUBLIC_CHATBOT_ID=your_chatbot_id_here
+vercel env pull .env.local
 ```
 
 ### 4. Customize Your Chatbot
