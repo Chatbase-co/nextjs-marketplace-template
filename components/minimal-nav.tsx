@@ -7,7 +7,7 @@ export function MinimalNav() {
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <div className="h-6 w-6 bg-white border border-zinc rounded" />
-            <span className="font-serif text-xl tracking-tight text-white text-shadow-lg">Meridian</span>
+            <span className="font-serif text-xl tracking-tight text-white text-shadow-lg">Nexus.ai</span>
           </Link>
 
           <div className="flex items-center gap-8">

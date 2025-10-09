@@ -12,14 +12,14 @@ export function MinimalHero() {
           className="font-serif text-5xl leading-[1.05] tracking-tight text-white lg:text-6xl xl:text-7xl"
           style={{ textShadow: "0 4px 20px rgba(0,0,0,0.5)" }}
         >
-          <span className="text-balance">Support that works while you sleep</span>
+          <span className="text-balance">project management like never before</span>
         </h1>
         <p
-          className="mt-6 max-w-2xl font-serif text-xl italic leading-relaxed text-white/95  lg:text-xl"
+          className="mt-6 max-w-4xl font-serif text-xl italic leading-relaxed text-white/95 lg:text-2xl"
           style={{ textShadow: "0 2px 10px rgba(0,0,0,0.5)" }}
         >
-          Meridian's AI-powered ticketing system resolves 60% of inquiries automatically and increases customer
-          satisfaction by 35%
+          AI-powered project management that automates 60% of routine tasks and increases team
+          productivity by 35%
         </p>
         <button className="group relative mt-12 overflow-hidden rounded-full border border-white/20 bg-white/10 px-8 py-4 font-medium text-white shadow-2xl backdrop-blur-xl transition-all duration-300 hover:scale-105 hover:border-white/30 hover:bg-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)]">
           <span className="relative z-10">Start Free Trial</span>

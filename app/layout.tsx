@@ -16,9 +16,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Meridian — Elegant Ticketing",
-  description: "The most elegant way to manage customer support",
-    generator: 'v0.app'
+  title: "Nexus — AI Project Management",
+  description: "The most intelligent way to manage projects and teams",
 }
 
 export default function RootLayout({

@@ -4,7 +4,7 @@ export function PricingSection() {
       name: "Starter",
       price: "29",
       description: "Perfect for small teams",
-      features: ["Up to 3 team members", "1,000 tickets per month", "Email & chat support", "Basic analytics"],
+      features: ["Up to 3 team members", "5 active projects", "Basic AI automation", "Project analytics"],
     },
     {
       name: "Professional",
@@ -12,9 +12,9 @@ export function PricingSection() {
       description: "For growing teams",
       features: [
         "Up to 15 team members",
-        "Unlimited tickets",
-        "Priority support",
-        "Advanced analytics",
+        "Unlimited projects",
+        "Advanced AI automation",
+        "Real-time analytics",
         "Custom workflows",
         "API access",
       ],
@@ -29,7 +29,7 @@ export function PricingSection() {
         "Dedicated success manager",
         "Custom integrations",
         "SLA guarantees",
-        "24/7 phone support",
+        "24/7 priority support",
       ],
     },
   ]
