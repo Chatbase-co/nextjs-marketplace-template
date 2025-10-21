@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Image from "next/image"
+import { Book } from "lucide-react"
 
 export function Nav() {
   return (
@@ -6,20 +8,18 @@ export function Nav() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <div className="h-6 w-6 bg-white border border-zinc rounded" />
-            <span className="font-serif text-xl tracking-tight text-white text-shadow-lg">Nexus.ai</span>
+            <Image src="/chatbase-logo.svg" width={100} height={100} alt="Chatbase Logo" className="w-[50px]" />
+            <span className="text-4xl font-bold">+</span>
+            <Image src="/vercel-logo.svg" width={100} height={100} alt="Vercel Logo" className="w-[100px]" />
           </Link>
 
-          <div className="flex items-center gap-8">
-            <Link
-              href="#"
-              className="rounded-full bg-background px-6 py-2.5 text-sm text-forground transition-all hover:bg-background/90"
-            >
-              Login
-            </Link>
-          </div>
+        <div className="flex items-center gap-4">
+          <Link href="https://chatbase.co/docs" target="_blank"
+          className="flex items-center gap-2 text-xl font-bold text-white/80 transition-colors hover:text-white">
+          <Book className="w-6 h-6" />Documentation</Link>
         </div>
       </div>
+        </div>
     </nav>
   )
 }

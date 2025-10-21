@@ -16,8 +16,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Nexus — AI Project Management",
-  description: "The most intelligent way to manage projects and teams",
+  title: "Chatbase + NextJS Template — AI Agents in One Click",
+  description: "Deploy intelligent AI support agents that solve your customers' problems with seamless integrations and enterprise security",
 }
 
 export default function RootLayout({
