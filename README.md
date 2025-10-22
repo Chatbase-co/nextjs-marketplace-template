@@ -41,3 +41,6 @@ vercel env pull .env.local
 
 - [Chatbase Documentation](https://www.chatbase.co/docs/user-guides/quick-start/introduction) - Complete integration guide
 - [API Reference](https://www.chatbase.co/docs/developer-guides/api-integration) - API-ready ai agent integration
+
+## Preview
+<img width="1467" height="775" alt="Screenshot 2025-10-22 at 9 08 34 PM" src="https://github.com/user-attachments/assets/2ee2a324-9ba8-4251-bc07-d9077875f560" />
