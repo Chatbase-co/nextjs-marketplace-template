@@ -1,46 +1,97 @@
-# Next.js Chatbase Template
+# Banff Studio
 
-A Next.js starter template for Chatbase Agents.
+Banff Studio is a website-first studio focused on Mexico and Canada. The site is built around clear UX/UI, bilingual and multilingual delivery, SEO, practical content support, and lightweight marketing when a project needs it. AI, automation, Web3, and mobile apps remain available as selective capabilities and can be quoted separately when needed.
 
-## Quick Start
+## Repository Structure
+
+- `content/pages/`: client-owned localized MDX content.
+- `content/blog/`: client-owned editorial articles.
+- `content/client/site-content.ts`: client-owned site copy model and locale data.
+- `components/client/`: client-facing page compositions and portfolio/about/services copy shells.
+- `components/core/`: reusable agency chrome, navigation, theme, and article shells.
+- `lib/core/`: reusable agency helpers for locale, theme, navigation, blog, and MDX rendering.
+- `lib/seo/`: reusable SEO, structured data, and metadata helpers.
+- `components/ui/`: reusable UI primitives.
+- `components/icons/`: reusable icon helpers.
+- `public/`: brand and media assets used by the site.
+
+This repository was forked from:
+https://github.com/Chatbase-co/nextjs-marketplace-template
+
+## What we do
+
+- Bilingual websites in English, French, and Spanish.
+- SEO, content, and practical marketing support.
+- Website redesigns and modernization for older sites.
+- Selective mobile app work quoted separately when the project truly needs it.
+- AI, automation, and Web3 integrations when they add real value.
+
+## Site structure
+
+- Home
+- About Us
+- Packages
+- Portfolio
+- Blog
+- Services
+- Contact
+
+## English
+
+Banff Studio builds websites for teams that want to operate across Mexico and Canada. The studio combines design, content, SEO, and technical execution with a clear bilingual workflow.
+
+What we offer:
+
+- Launch-ready websites.
+- Multilingual structure in English, French, and Spanish.
+- SEO and local visibility.
+- Content support and light marketing.
+- Selective mobile app work quoted separately when needed.
+- AI, automation, and Web3 integration when it makes sense.
+
+## Français
+
+Banff Studio crée des sites web pour des équipes qui veulent travailler entre le Mexique et le Canada. Le studio combine design, contenu, SEO et exécution technique avec un flux bilingue clair.
+
+Ce que nous proposons :
+
+- Sites prêts à lancer.
+- Structure multilingue en anglais, français et espagnol.
+- SEO et visibilité locale.
+- Soutien en contenu et marketing léger.
+- Travail mobile sélectif quand le projet le demande.
+- Intégrations IA, automatisation et Web3 lorsque c’est pertinent.
+
+## Español
+
+Banff Studio crea sitios web para equipos que quieren operar entre México y Canadá. El estudio combina diseño, contenido, SEO y ejecución técnica con un flujo bilingüe claro.
+
+Lo que ofrecemos:
+
+- Sitios listos para lanzar.
+- Estructura multilingüe en inglés, francés y español.
+- SEO y visibilidad local.
+- Apoyo en contenido y marketing ligero.
+- Trabajo móvil selectivo cuando el proyecto lo necesita.
+- Integraciones de AI, automatización y Web3 cuando aportan valor real.
+
+## Run locally
 
 ```bash
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
-## Deploy
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatbase-co%2Fnextjs-marketplace-template&env=NEXT_PUBLIC_CHATBOT_ID&envDescription=chatbot%20id%20from%20chatbase&integration-ids=icfg_jS0nsILSbn7FTwQFbTJy5CSY&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22chatbase%22%2C%22productSlug%22%3A%22chatbot%22%2C%22protocol%22%3A%22other%22%7D%5D)
+## Build
 
-## Chatbase AI Integration
-
-This template comes pre-configured with Chatbase integration. Here's how to set it up:
-
-### 1. Create Chatbase Account
-Visit [Chatbase.co](https://www.chatbase.co) to create your account and chatbot.
-
-### 2. Get Your Chatbot ID
-1. Log into your Chatbase dashboard
-2. Create a new chatbot or select existing one
-3. Copy your chatbot ID
-
-### 3. Configure Environment Variables
-You need 1 environment variable: `NEXT_PUBLIC_CHATBOT_ID`
-
-Create `.env.local`:
-```env
-vercel env pull .env.local
+```bash
+npm run build
 ```
 
-### 4. Customize Your Chatbot
-- Upload your documentation and FAQs to train the AI agent in the Chatbase Dashboard
-- Customize the chatbot's personality and responses
-- The chatbot will automatically appear on your site once configured
+## Notes
 
-## Chatbase Resources
-
-- [Chatbase Documentation](https://www.chatbase.co/docs/user-guides/quick-start/introduction) - Complete integration guide
-- [API Reference](https://www.chatbase.co/docs/developer-guides/api-integration) - API-ready ai agent integration
-
-## Preview
-<img width="1467" height="775" alt="Screenshot 2025-10-22 at 9 08 34 PM" src="https://github.com/user-attachments/assets/2ee2a324-9ba8-4251-bc07-d9077875f560" />
+- Default language: English.
+- Default theme: Dark.
+- The site supports language switching between English, French, and Spanish.
+- The portfolio, services, packages, blog, and contact pages are all tailored to the studio’s website-first positioning.
+- Reusable core logic lives under `components/core/` and `lib/core/`; client content lives under `content/` and `components/client/`.

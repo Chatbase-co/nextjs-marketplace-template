@@ -1,6 +1,7 @@
 'use client'
 
 // Inspired by react-hot-toast library
+// AGENCY_OWNED: reusable toast state manager copied into the design system layer.
 import * as React from 'react'
 
 import type { ToastActionElement, ToastProps } from '@/components/ui/toast'
